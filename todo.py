@@ -8,6 +8,7 @@ def view_tasks():
         print(f"{i}. {task}")
 
 def main():
+    print("Welcome to the To-Do App!")
     while True:
         print("\n1. Add Task\n2. View Tasks\n3. Exit")
         choice = input("Choose an option: ")
